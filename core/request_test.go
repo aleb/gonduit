@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/etcinit/gonduit/requests"
+	"github.com/danieldanciu/gonduit/requests"
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"
 )

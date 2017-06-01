@@ -3,8 +3,8 @@ package gonduit
 import (
 	"testing"
 
-	"github.com/etcinit/gonduit/core"
-	"github.com/etcinit/gonduit/test/server"
+	"github.com/danieldanciu/gonduit/core"
+	"github.com/danieldanciu/gonduit/test/server"
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"
 )

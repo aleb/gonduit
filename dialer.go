@@ -1,9 +1,9 @@
 package gonduit
 
 import (
-	"github.com/etcinit/gonduit/core"
-	"github.com/etcinit/gonduit/responses"
-	"github.com/etcinit/gonduit/util"
+	"github.com/danieldanciu/gonduit/core"
+	"github.com/danieldanciu/gonduit/responses"
+	"github.com/danieldanciu/gonduit/util"
 )
 
 // A Dialer contains options for connecting to an address.

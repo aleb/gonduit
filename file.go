@@ -1,8 +1,8 @@
 package gonduit
 
 import (
-	"github.com/etcinit/gonduit/requests"
-	"github.com/etcinit/gonduit/responses"
+	"github.com/danieldanciu/gonduit/requests"
+	"github.com/danieldanciu/gonduit/responses"
 )
 
 // FileDownload performs a call to file.download.

@@ -1,5 +1,5 @@
 package responses
 
-import "github.com/etcinit/gonduit/entities"
+import "github.com/danieldanciu/gonduit/entities"
 
 type PhrictionInfoResponse entities.PhrictionDocument
