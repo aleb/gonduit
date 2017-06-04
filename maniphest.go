@@ -34,9 +34,9 @@ func (c *Conn) ManiphestCreateTask(
 
 // ManiphestCreateTask performs a call to maniphest.createtask.
 func (c *Conn) ManiphestEditTask(
-	req requests.ManiphestEditTaskRequest,
-) (*entities.ManiphestTask, error) {
-	var res entities.ManiphestTask
+	req requests.EditEndpointRequest,
+) (*responses.EditEndpointResponse, error) {
+	var res responses.EditEndpointResponse
 
 	if err := c.Call("maniphest.edit", &req, &res); err != nil {
 		return nil, err

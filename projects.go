@@ -1,6 +1,7 @@
 package gonduit
 
 import (
+	"github.com/danieldanciu/gonduit/entities"
 	"github.com/danieldanciu/gonduit/requests"
 	"github.com/danieldanciu/gonduit/responses"
 )
@@ -17,3 +18,17 @@ func (c *Conn) ProjectQuery(
 
 	return &res, nil
 }
+
+// ProjectEdit performs a call to project.edit.
+func (c *Conn) ProjectEdit(
+	req requests.EditEndpointRequest,
+) (*entities.Project, error) {
+	var res entities.Project
+
+	if err := c.Call("project.edit", &req, &res); err != nil {
+		return nil, err
+	}
+
+	return &res, nil
+}
+
